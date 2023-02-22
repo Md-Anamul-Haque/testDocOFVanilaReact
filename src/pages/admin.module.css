@@ -1,0 +1,83 @@
+.main {
+    display: grid;
+    place-items: center;
+    background-color: #5fe4;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.ol {
+    background-color: #85e5;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 3px #B1B2FF;
+}
+
+.li {
+    margin: auto;
+    background-color: rgba(149, 103, 240, 0.333);
+    min-width: 260px;
+    max-width: 100%;
+    border: 2px solid silver;
+    border-radius: 3px;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.li:hover {
+    color: #6170dd;
+    background-color: #0b0054;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navLink {
+    font-weight: 500;
+    color: #9699dc;
+    text-decoration: inherit;
+}
+
+.navLink:hover {
+    color: #535bf2;
+}
+
+@media (prefers-color-scheme: light) {
+    .navLink:hover {
+        color: #747bff;
+    }
+}
+
+.addBtn {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    outline-style: double;
+    padding: 8px 10px;
+    margin: 10px auto;
+    display: block;
+    transition: 300;
+    transition-duration: 200;
+}
+
+.addBtn:hover {
+    background-color: rgb(0, 128, 255);
+    border-radius: 5px;
+    outline-style: dotted;
+}
+
+.saveBtn {
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.inputText {
+    background-color: rgb(172, 137, 137);
+    color: rgb(0, 0, 0);
+    padding: 7px 10px;
+    width: 100%;
+    flex-grow: grow;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
